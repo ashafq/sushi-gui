@@ -1,12 +1,13 @@
 #! /usr/local/bin/python3
 
 import sys
+from os import getenv
 from PySide6.QtWidgets import QApplication
 from sushi_gui.main_window import MainWindow
 
 
-# If sushi is running on another device replace 'localhost' with the ip of that device 
-SUSHI_ADDRESS = 'localhost:51051'
+# If sushi is running on another device replace 'localhost' with the ip of that device
+SUSHI_ADDRESS = getenv("SUSHI_ADDRESS", 'localhost:51051')
 
 
 def main():

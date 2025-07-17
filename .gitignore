@@ -7,6 +7,8 @@ sushi_gui/__pycache__/
 sushi_gui/sushi_rpc_pb2*
 sushi_gui/build/
 sushi_gui/dist/
+sushi_gui.egg-info/
 __pycache__/
 sushi_rpc_pb2*
+uv.lock
 
